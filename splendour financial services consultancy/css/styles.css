@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 1rem;
+  background-color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #007bff;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 2rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+.intro {
+  font-family: times new romans;
+}
+
+/* Services Section */
+.services .card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services .card-body {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(8, 0, 255) !important;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Call to Action Button */
+.btn-light {
+  background-color: #fff;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Blog and Cards */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/* Team section*/
+.card-img-top {
+  weight: 500px;
+  height: 300px;
+  border-radius: 100%;
+  border: 3px solid #fff;
+}
+
+.services .card-title {
+  background-color: gray;
+  padding: 20px;
+  color: black;
+  font-family: Algerian;
+}
